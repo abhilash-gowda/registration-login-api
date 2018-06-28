@@ -11,7 +11,7 @@ router.get("/", (req, res, next) => {
   /*Tip.findOne({}, [], { $orderby : { 'created_at' : -1 } }, function(err, post) {
     console.log( cursor );
   });
-});*/
+});
 Tip.findOne().sort({'created_by':1})
 });
   /* --> to get the first data in db
@@ -23,7 +23,7 @@ Tip.findOne().sort({'created_by':1})
 });
 
 
-
+*/
 
     Tip.find()
     .select("health_tip type")
@@ -55,7 +55,6 @@ Tip.findOne().sort({'created_by':1})
     });
 });
 
-*/
 
 
 router.post("/", (req, res, next) => {
