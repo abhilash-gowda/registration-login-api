@@ -1,0 +1,23 @@
+{
+  "name": "bms-icl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "datetime": "0.0.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7",
+    "morgan": "^1.9.0",
+    "time-stamp": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "description": "consumed from volley library android"
+}
